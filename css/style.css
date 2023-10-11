@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+*{
+	margin: 0; /*if auto flex can't active*/
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+.logo{	
+    text-align: center;
+    padding-top: 20px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.logo1 h2 {
+	margin-top: -35px;
+}
+
+.logo1 .login{
+	font-size: 15pt;
+	text-align: right;
+	margin-right: 30px;
+
+}
+.logo1 .basket{
+	font-size: 15pt;
+	text-align: right;
+	margin-right: 80px;
+	margin-top: -35px;
+
+}
+
+.logo1 .search{
+	font-size: 15pt;
+	text-align: right;
+	margin-right: 130px;
+	margin-top: -35px;
+}
+
+.fa{
+	color: black;
+}
+
+
+.navbar{
+	color: black;
+	width: 100%;
+	height: 80px;
+		
+}
+.navbar .wrap{
+	display: flex;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+
+}
+
+nav{
+	display: flex;
+	padding-left: 170px;
+	margin-top: 20px;
+	margin-left: 150px;
+
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	padding: 15px;	
+	font-family: 'Cinzel', serif;
+
+}
+nav ul li a:hover{
+	color: coral;
+	border-bottom: 4px solid coral;
+}
+
+
+.container{
+	width: 90%;
+	margin:	auto;
+	overflow: hidden;
+}
+
+#showcase{
+	min-height: 400px;
+	text-align: left;
+	background: 
+			linear-gradient(
+				rgba(0,0,0,0.0),
+				rgba(0,0,0,0.0)
+				),
+			url('../img/1 20.jpeg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: 30px;
+}
+
+
+#showcase h1{
+	font-family: 'Cinzel', serif;
+	margin-top: 100px;
+	font-size: 40px;
+}
+
+#showcase p{
+	font-family: 'Dancing Script', cursive;
+	width: 40%;
+	font-size: 30px;
+}
+
+#boxes{
+	margin-top: 40px;
+	font-weight: bold;
+	font-family: 'EB Garamond', serif;
+}
+
+.img-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.single-img img{
+	width: 300px;
+	height: 350px;
+}
+
+.single-img{
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+
+#newsletter{
+	background-color: aliceblue;
+	height: 80px;
+}
+
+#newsletter p{
+	margin-top: 25px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'roboto', sans-serif;
+	font-weight: bold;
+}
+
+footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #e5caca; 
+	font-family: 'verdana',sans-serif;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 28px;
+	margin-right: 35px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.footer-col{
+	width: 20%;
+	padding: 8 15px;
+	margin-right: auto; 
+}
+
+.footer-col h4{
+	font-family: 'verdana', sans-serif;
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-weight: 700px;
+	position: relative;
+}
+
+.footer-col h4::before{ 
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: linen;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	/*text-transform: capitalize;*/
+	font-weight: 300;
+	color: black; /*#8fb0d4;*/
+	display: block;
+	transition: all 0.3s ease;
+	text-decoration: none;
+}
+
+.footer-col ul li a:hover{
+	color: black; /*#8fb0d4*/
+	padding-left: 10px;
+}
+
+.footer-col .icons i{
+	display: inline;
+	color: black; /*#8fb0d4;*/
+	margin: 0 10px 10px 0;
+	text-align: center;
+}
+
+.footer-col .social-links i{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	color: black;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 0.2rem;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links i:hover{
+	color: black;
+	background-color: black;
+}
+
+.footer hr{
+	width: 90%;
+	height: 1px;
+	border: 0;
+  	display: inline-block;
+  	margin-left: 60px;
+  	background-color: black ;
+}
+
+.footer-end h3{
+	font-size: 15px;
+	color: black; /*#8fb0d4*/
+	font-weight: normal;
+	position: relative;
+	padding-top: 10px;
+	margin-left: 70px;
+}
+
+.fa-paypal:hover{
+	color: black;
+
+}
+
+
+/* media query footer */
+@media(max-width: 767px){
+	.footer-col{
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 547px){
+	.footer-col{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
+
+.panel {
+	font-family: 'EB Garamond', serif;
+	margin-left: 400px;	
+	margin-bottom: 50px;
+}
+
+.panel h1 {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.panel p {
+	margin-bottom: 15px;
+}
